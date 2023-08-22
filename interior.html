@@ -18,31 +18,38 @@
       <nav>
           <div>
               <ul class="nav-list">
-                  <li><a href="index.html">Inicio</a></li>
-                  <li><a href="exterior.html">Exterior</a></li>
-                  <li><a href="interior.html">Interior</a></li>
-                  <li><a href="Habitaciones.html">Habitaciones</a></li>
-                  <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="exterior.html">Exterior</a></li>
+                <li><a href="interior.html">Interior</a></li>
+                <li><a href="Habitaciones.html">Habitaciones</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
               </ul>
           </div>
       </nav>
   </div>
 
-    <section class="container">
-      <div class="panel active" style="background-image: url('https://pbs.twimg.com/media/FzMIvaMXwAEFtuj?format=jpg&name=large')">
-        <h3>Living</h3>
-      </div>
-      <div class="panel" style="background-image: url('https://pbs.twimg.com/media/FxFIo6XWwAk5tsZ?format=jpg&name=large')">
-        <h3>Cocina</h3>
-      </div>
-      <div class="panel" style="background-image: url('https://pbs.twimg.com/media/F28InWIXYAALohX?format=jpg&name=large')">
-        <h3>Baño</h3>
-      </div>
-      
+  <div class="carousel">
+    <div class="image-container" id="imgs">
+      <img src="./img/living.png"
+     alt="first-image"
+     />
+  <img
+     src="./img/cocina.png"
+     alt="second-image"
+     />
+  <img
+     src="./img/baño.png"
+     alt="third-image"
+     />
+  
+    </div>
 
-    </section>
+    <div class="buttons-container">
+      <button id="left" class="btn">Prev</button>
+      <button id="right" class="btn">Next</button>
+    </div>
+  </div>
 
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>

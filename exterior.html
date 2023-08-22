@@ -28,21 +28,28 @@
       </nav>
   </div>
 
-    <section class="container">
-      <div class="panel active" style="background-image: url('https://pbs.twimg.com/media/F28HaEIWEAAhCBF?format=jpg&name=900x900')">
-        <h3>Entrada</h3>
-      </div>
-      <div class="panel" style="background-image: url('https://pbs.twimg.com/media/FyLib-CWwAEx9rO?format=jpg&name=large')">
-        <h3>Patio</h3>
-      </div>
-      <div class="panel" style="background-image: url('https://pbs.twimg.com/media/F28H3k7XEAAHkNv?format=jpg&name=900x900')">
-        <h3>Asador</h3>
-      </div>
-      
+  <div class="carousel">
+    <div class="image-container" id="imgs">
+      <img src="./img/entrada.png"
+     alt="first-image"
+     />
+  <img
+     src="./img/exterior.png"
+     alt="second-image"
+     />
+  <img
+     src="./img/parrilla.png"
+     alt="third-image"
+     />
+  
+    </div>
 
-    </section>
+    <div class="buttons-container">
+      <button id="left" class="btn">Prev</button>
+      <button id="right" class="btn">Next</button>
+    </div>
+  </div>
 
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
